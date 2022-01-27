@@ -1,2 +1,8 @@
-let price = 49.99;
-showMessage(price);
+let person = {
+    firstName: "Matt",
+    lastName: "Halvorson",
+    petName: "Roo"
+}
+
+showMessage(person.petName);
+console.log(person);
