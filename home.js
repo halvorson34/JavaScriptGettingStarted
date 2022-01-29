@@ -4,5 +4,10 @@ let person = {
     petName: "Roo"
 }
 
-showMessage(person.petName);
+let firstName = person.firstName;
+
+(firstName == "Matt") ? showMessage(firstName) : showMessage("Wrong person")
+
+
+// showMessage(person.petName);
 console.log(person);
