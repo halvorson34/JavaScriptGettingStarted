@@ -11,3 +11,5 @@ let firstName = person.firstName;
 
 // showMessage(person.petName);
 console.log(person);
+
+changePercentOff(32);
