@@ -31,3 +31,15 @@ button.addEventListener("click", function() {
         button.textContent = "SEE REVIEW";
     }
 });
+
+const values = [ "a", "b", "c" ];
+
+const set = values.filter(function (item) {
+    return item > "b";
+});
+
+console.log(set);
+
+// const containers = document.getElementsByClassName("container");
+
+// containers[2].classList.add("d-none");
